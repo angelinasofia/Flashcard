@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
+
+:root{
+  --font:"Gowun Batang", serif;
+  --cor-1: #921A40;
+  --cor-2: #C75B7A;
+  --cor-3:#D9ABAB;
+  --cor-4: #F4D9D0;
+}
+
+body{
+    background-color: var(--cor-3);
+    color: var(--cor-1);
+    font-family: var(--font);
+}
+
+footer{
+    background-color: var(--cor-4);
+    color: var(--cor-2);
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    height: 2rem;
+}
+
+footer p{
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
